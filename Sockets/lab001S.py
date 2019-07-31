@@ -15,8 +15,7 @@ while True:
 	c, addr = soc.accept()
 	print("Connected to : ",addr)
 
-	if(c.send("Welcome to Server 101")):
-	
+	if(c.send("Welcome to Server 101")):	
 		c.close()
 		break
 
