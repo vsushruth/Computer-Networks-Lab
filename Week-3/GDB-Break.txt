@@ -1,0 +1,6 @@
+./waf shell
+gdb build/scratch/star
+(gdb)> b star.cc:10
+(gdb)> b star.cc:20
+(gdb)> b star.cc:40
+(gdb)> r
