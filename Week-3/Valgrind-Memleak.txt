@@ -1,0 +1,1 @@
+./waf --command-template="valgrind --leak-check=full --show-reachables=yes %s" --run first
